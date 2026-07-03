@@ -1,0 +1,97 @@
+    :root{
+      --bg:#0f1216;
+      --panel:#161b22;
+      --panel2:#121722;
+      --border:#2a3442;
+      --text:#e6edf3;
+      --muted:#9aa7b6;
+      --accent:#4f8cff; /* blau */
+      --accent2:#6ea8fe;
+      --good:#36d399;
+      --danger:#f87272;
+    }
+    body{
+      background: radial-gradient(1200px 600px at 20% 0%, #18202b 0%, var(--bg) 55%, #0b0e12 100%);
+      color: var(--text);
+    }
+    .app-wrap{ max-width: 1100px; margin: 28px auto; padding: 0 12px; }
+    .hero{
+      background: linear-gradient(180deg, rgba(79,140,255,.16), rgba(0,0,0,0));
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 18px 18px;
+      margin-bottom: 16px;
+    }
+    .panel{
+      background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.00));
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.25);
+    }
+    .field-title{
+      color: var(--muted);
+      font-size: .9rem;
+      margin-bottom: 10px;
+    }
+    .form-check-label{
+      color: var(--text);
+    }
+    .form-check-input:checked{
+      background-color: var(--accent);
+      border-color: var(--accent);
+      box-shadow: 0 0 0 .2rem rgba(79,140,255,.25);
+    }
+    .btn-accent{
+      background: linear-gradient(180deg, var(--accent2), var(--accent));
+      border: 0;
+      color: #07101f;
+      font-weight: 700;
+    }
+    .btn-accent:active{ transform: translateY(1px); }
+    .mono{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+    .help{
+      color: var(--muted);
+      font-size: .92rem;
+    }
+    .range-col{
+      min-height: 420px;
+    }
+    .small-muted{ color: var(--muted); font-size: .86rem; }
+    .list-tight .form-check{ margin-bottom: 6px; }
+    textarea, input{
+      background: var(--panel2);
+      border: 1px solid var(--border);
+      color: var(--text);
+    }
+    textarea:focus, input:focus{
+      border-color: rgba(79,140,255,.7);
+      box-shadow: 0 0 0 .2rem rgba(79,140,255,.18);
+      color: var(--text);
+    }
+    .pill{
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,.02);
+      border-radius: 999px;
+      padding: 6px 12px;
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+    }
+    .dot{
+      width:10px; height:10px; border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 0 6px rgba(79,140,255,.15);
+    }
+
+    .dropdown-menu {
+      color: #000 !important;
+    }
+    .dropdown-menu .form-check-label {
+      color: #000 !important;
+    }
+    .dropdown-menu .form-check-input {
+      accent-color: #4f8cff;
+    }
