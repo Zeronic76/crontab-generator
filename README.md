@@ -13,7 +13,7 @@ Das Tool ist ideal für Systemadministratoren und Entwickler, die Cron-Ausdrück
 - **Intuitive Benutzeroberfläche:** Generiere komplexe Cron-Ausdrücke mit wenigen Klicks.
 - **Volle Flexibilität:** Unterstützung für Minuten, Stunden, Tage, Monate und Wochentage.
 - **Direkte Vorschau:** Der fertige Crontab-Befehl wird sofort einsatzbereit generiert.
-- **Leichtgewichtig & Schnell:** Pures PHP/Web-Skript ohne überladene Frameworks.
+- **Leichtgewichtig & Schnell:** 
 
 ## 🛠️ Installation & Nutzung
 
